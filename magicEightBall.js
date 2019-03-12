@@ -1,9 +1,9 @@
-let userName = ('Beans');
-userName = true ? console.log('true'):
-console.log('false');
+let userName = ("Human Being");
+//userName = true ? console.log('true'):
+//console.log('false');
 
 const userQuestion = ('Will I become a werewolf tonight?');
-console.log(`The user asked:
+console.log(`${userName} asked: 
 ${userQuestion}`);
 
 let randomNumber = Math.floor(Math.random() * 8);
@@ -35,3 +35,4 @@ switch (randomNumber) {
     break;
 }
 console.log(`The eight ball answered: ${eightBall}`);
+
